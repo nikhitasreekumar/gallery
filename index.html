@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food gallery</title>
+
+<style>
+    body{
+       background-image: url(./images.html/background\ yellow.jpg);
+       background-repeat: no-repeat;
+       background-size: 100%;
+    }
+    a{
+        text-decoration: underline;
+        text-align: center;
+        justify-content: space-between;
+       size: 20px;
+       color: black;
+       font-size: medium;
+       font-style: italic;
+       margin-left: 10px;
+       
+        
+       
+    }
+    
+h1{
+    text-align: center;
+    font-style: italic;
+    background-color: chocolate;
+    border-radius: 50px;
+    width: 100%;
+}
+.parent{
+/* height: 100px; */
+width: 100%;
+/* top: 100px; */
+left:0px; */
+/* background-color: black; */
+/* position: relative; */
+flex: 20px;
+/* float: left; */
+display: flex;
+justify-content: space-evenly;
+/* border: 20px black ; */
+flex-wrap: wrap;
+align-items: center;
+/* flex-direction: row; */
+/* transform: translateY(50px) scaleY(50px); */
+/* transition-property: opacity, left, top, height;
+  transition-duration: 3s, 5s; */
+  margin-top: 100px;
+  z-index: 0px;
+}
+
+/* .parent:hover{
+    width: 100px;
+  height: 100px;
+} */
+
+
+.col{
+    /* background-color: chocolate; */
+    color: black;
+    height: 200px;
+    width: 35%px;
+    /* border: 2px solid;
+    position: absolute; */
+    float: left;
+    text-wrap: 100px;
+    margin-left: 20px;
+    margin-top: 0px; 
+    text-align: left: 20px;
+    z-index: 0;
+    flex-wrap:wrap;
+    /* transform: translateY(20px); */
+    
+    
+    
+}
+.col1{
+    left: 100px;
+    color: black;
+    /* width: 250px; */
+    size: 20px;
+    margin-top: 0px;
+    
+}
+.col2{
+    left: 400px;
+    top: 50px;
+    color: black;
+    /* width: 250px; */
+    margin-top: 200px;
+}
+.col3{
+    left: 500px;
+    top: 50px;
+    color: black;
+    /* width: 450px; */
+    margin-top: 250px;
+}
+.col4{
+    left: 100px;
+    height: 200px;
+    /* width: 10px; */
+    color: black;
+    /* width: 600px; */
+    margin-top: 260px;
+}
+#B1{
+background-color: chocolate;
+border-radius: 100px;
+}
+    
+#B2{
+background-color: chocolate;
+border-radius: 100px;
+
+}
+img{
+    border-radius: 100px;
+    box-shadow: 5px 2px;
+    justify-content: space-evenly;
+    left: 500px;
+    /* position: relative; */
+    transform: skewY(20px);
+   
+}
+#B1:hover{
+    background-color: darkkhaki;
+}
+
+#B2:hover{
+    background-color: darkkhaki;
+}
+@media (max-width: 600px){
+    .parent{
+        width: 100%;
+    }
+}
+
+@media (min-width: 700px){
+    .parent{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px){
+    .parent{
+        width: 100%;
+    }
+}
+.h2{
+    @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Bona+Nova:ital@1&family=Great+Vibes&display=swap');
+    /* font-family: 'Bitter', serif; */
+font-family: 'Bona Nova', serif;
+/* font-family: 'Great Vibes', cursive; */
+text-align: right;
+}
+
+
+    </style>
+</head>
+<h1> Welcome to <b>BURGER HOUSE !</b></h1>
+
+<body>
+    <h2 class="f3">Experience The Best</h2>
+    <a href="">Home</a> <a href="">About us </a> <a href="">Menu</a> <a href="">Contact Us </a>
+    
+    <div class="parent">
+
+    <div class="col col1">
+        <img src="./images.html/aloo (1).jpg" alt="">
+        <h2>Chicken Burger</h2>
+        <h4>Price: 100/-</h4>
+        <button id="B1">Add to Cart</button>
+        <button id="B2">Buy</button>
+    </div>
+    
+    <div class="col col2">
+        <img src="./images.html/double cheese burger.jpg" alt="">
+        <h2>Cheese Chicken Burger</h2>
+        <h4>Price: 150/-</h4>
+        <button id="B1">Add to Cart</button>
+        <button id="B2">Buy</button>
+    </div>
+    
+    <div class="col col3">
+        <img src="./images.html/double cheese burger.jpg" alt="">
+        <h2>Double Cheese Chicken Burger</h2>
+        <h4>Price: 190/-</h4>
+        <button id="B1">Add to Cart</button>
+        <button id="B2">Buy</button>
+    </div>
+    
+    <div class="col col4">
+        <img src="./images.html/new aloo.PNG" alt="">
+        <h2>Aloo Tikki Burger</h2>
+        <h4>Price: 100/-</h4>
+        <button id="B1">Add to Cart</button>
+        <button id="B2">Buy</button>
+    </div>
+    
+</div>
+
+</body>
+</html>
